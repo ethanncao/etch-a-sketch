@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  height: 800px;
+  width: 800px;
+}
+
+.grid-divs {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.hovered {
+  background-color: lightblue;
+}
+
+.btn-container {
+  margin-bottom: 50px;
+}
